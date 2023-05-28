@@ -14,19 +14,19 @@ Our paper proposes an approach to solve Bayesian inverse problems in real time. 
 
 ## Code outline
 
-[examples](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/examples): Contains the Python scripts that implements the examples discussed in the paper, along with the code for generating the corresponding plots. The three examples are organized into  separate folders.
+[examples](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples): Contains the Python scripts that implements the examples discussed in the paper, along with the code for generating the corresponding plots. The three examples are organized into  separate folders.
 
 Within each example folder, you will find a Jupyter notebook named 'AVI_fullrankGaussian.ipynb'. This notebook demonstrates the process of learning the Bayesian inverse map for the specific example. The results of the computations are saved in the ```./results``` folder.
 
 Additionally, a comparison has been made between the posteriors learned from our approach and MCMC. The results of this comparison can be found in the ```./results_metrics``` folder. The estimation of the comparison metrics is carried out in the 'metrics_evaluation.ipynb' jupyter notebook.
 
 The forward model, which maps parameters to observable quantities, is implemented in the following Jupyter notebooks:
-* [Surrogate.ipynb](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/examples/1-NDT/Surrogate.ipynb): This notebook contains the implementation of the forward model for [example 1](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/examples/1-NDT).
-* [pinn.ipynb](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/examples/2-1D_heateqn_Wiener-Levy_process/pinn.ipynb): This notebook contains the implementation of the forward model for [example 2](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/examples/2-1D_heateqn_Wiener-Levy_process).
+* [Surrogate.ipynb](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/1-NDT/Surrogate.ipynb): This notebook contains the implementation of the forward model for [example 1](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/1-NDT).
+* [pinn.ipynb](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/2-1D_heateqn_Wiener-Levy_process/pinn.ipynb): This notebook contains the implementation of the forward model for [example 2](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/2-1D_heateqn_Wiener-Levy_process).
 
 ## Installing
 
-The code for examples is written in pytorch. Install dependencies at [requirements.txt](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/requirements.txt) and clone our repository
+The code for examples is written in pytorch. Install dependencies at [requirements.txt](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/requirements.txt) and clone our repository
 ```
 git clone https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri.git
 cd paper-2023-inverse-map-karumuri
