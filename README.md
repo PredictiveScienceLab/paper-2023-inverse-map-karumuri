@@ -21,7 +21,7 @@ Within each example folder, you will find a Jupyter notebook named 'AVI_fullrank
 Additionally, a comparison has been made between the posteriors learned from our approach and MCMC. The results of this comparison can be found in the ```./results_metrics``` folder. The estimation of the comparison metrics is carried out in the 'metrics_evaluation.ipynb' jupyter notebook.
 
 The forward model, which maps parameters to observable quantities, is implemented in the following Jupyter notebooks:
-* [Surrogate.ipynb](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/1-NDT/Surrogate.ipynb): This notebook contains the implementation of the forward model for [example 1](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/1-NDT).
+* [Surrogate.ipynb](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/1-Damage_location_detection/Surrogate.ipynb): This notebook contains the implementation of the forward model for [example 1](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/1-Damage_location_detection).
 * [pinn.ipynb](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/2-1D_heateqn_Wiener-Levy_process/pinn.ipynb): This notebook contains the implementation of the forward model for [example 2](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri/tree/main/examples/2-1D_heateqn_Wiener-Levy_process).
 
 ## Installing
