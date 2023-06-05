@@ -33,7 +33,7 @@ cd paper-2023-inverse-map-karumuri
 ```
 
 ### Citation:
-If you use this code for your research, please cite our paper XXXX.
+If you use this code for your research, please cite our paper https://arxiv.org/abs/2305.20004.
 
 
 
