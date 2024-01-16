@@ -8,9 +8,11 @@ Our paper proposes an approach to solve Bayesian inverse problems in real-time. 
 
 #### The novel features of our approach are as follows:
 
-1.	We parametrize the posterior parameters using neural nets.
-2.	The neural nets parameters are trained through amortized variational inference which is the expectation of ELBO over all possible   data sets compatible with the model.
-3.	Once trained posterior estimates are available on-the-fly just at the cost of the forward pass of the network.
+a.	We parameterize the posterior distribution as a function of data. This work outlines two distinct approaches to do this -
+    1. The first method involves parameterizing the posterior using an amortized full-rank Gaussian guide, implemented through neural networks.
+  	2. The second method utilizes a Conditional Normalizing Flow guide, employing conditional invertible neural networks for cases where the target posterior is arbitrarily complex. 
+b.	In both approaches,  we learn the network parameters by amortized variational inference which involves maximizing the expectation of evidence lower bound over all possible datasets compatible with the model.
+c.	Once trained posterior estimates are available on-the-fly just at the cost of the forward pass of the network.
 
 ## Code outline
 
