@@ -1,10 +1,10 @@
 # inverse-map-karumuri-2023
-This repository replicates the result of the paper "Learning to solve Bayesian inverse problems: An amortized variational inference approach."
+This repository replicates the result of the paper "Learning to solve Bayesian inverse problems: An amortized variational inference approach using Gaussian and Flow guides."
 
 ## **Learning to solve Bayesian inverse problems: An amortized variational inference approach**
 [Sharmila Karumuri](https://scholar.google.com/citations?user=uY1G-S0AAAAJ&hl=en) and [Ilias Bilionis](https://scholar.google.com/citations?user=rjXLtJMAAAAJ&hl=en).
 
-Our paper proposes an approach to solve Bayesian inverse problems in real time. Our method is intended to overcome the need for solving inverse problems from scratch for each set of new data. We do this by learning a map from data to posteriors (Bayesian inverse map).
+Our paper proposes an approach to solve Bayesian inverse problems in real-time. Our method is intended to overcome the need for solving inverse problems from scratch for each set of new data. We do this by learning a map from data to posteriors (Bayesian inverse map).
 
 #### The novel features of our approach are as follows:
 
